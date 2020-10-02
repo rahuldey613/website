@@ -171,7 +171,7 @@ footer {
   }
   /////////////////////theme changer//////////////////////////////////////
   
-  section
+ .theme-changer
 {
   position: absolute;
   top: 0;
@@ -184,7 +184,7 @@ footer {
   transition: 0.5s;
 }
   
-  section.dark{
+  .theme-changer.dark{
   background: #262626;
   color:#fff;
 }
