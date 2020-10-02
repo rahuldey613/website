@@ -12,6 +12,7 @@
 </head>
 
 <body>
+  <section class="theme-changer">
   <div class="content-wrapper">
     <nav>
       <a href='https://github.com/login/oauth/authorize?client_id=23c78f66ab7964e5ef97' class="btn-login">
@@ -57,7 +58,27 @@
         or our
         <a href="https://welcome.realdevsquad.com/faq"> FAQ section</a>.
       </h3>
+      <!-----Theme changer----->
+      
+       <ul>
+      <li>
+         <span>Dark</span>
+         <span>Light</span>
+      </li>
+    </ul>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+          $('ul').click(function(){
+            $('ul').toggleClass('active')
+            $('section').toggleClass('dark')
+      })
+    })
+    </script>
+      
     </main>
+    </section>
 
     <footer>
       <p class="info-repo">The contents of this website are deployed from this <a
